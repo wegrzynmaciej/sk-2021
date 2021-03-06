@@ -45,13 +45,13 @@
 
 ### Konfiguracja połączenia sieciowego
 
-| Parametr | wartość           | komentarzu |
+| Parametr | wartość           | komentarz |
 | ------------- |:-------------:| -----:|
-| Adres IP      |         |  |
-| Maska podsieci|  |     |
-| Brama         |         |  |
-| DNS 1         |       |      |
-| DNS 2         |          |    |
+| Adres IP      | 10.0.2.15     | ``$ ip a`` |
+| Maska podsieci| 255.255.255.0 [/24] | ``$ ip a`` |
+| Brama         | 10.0.2.2 | ``$ ip route`` |
+| DNS 1         | 1.1.1.1 | ``$ cat /etc/resolv.conf`` |
+| DNS 2         | 8.8.8.8 | ``$ cat /etc/resolv.conf`` |
 
 ### Schemat sieci
 
